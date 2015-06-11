@@ -27,5 +27,5 @@ f: f: Πx:int. int list(x) → int list(x)
 ### λΠ∀ (Dependent STLC with polymorphism)
 f: Πx: int. ɑ → int(x) // weird
 
-Π (Dependent STLC with polymorphism and tycons)
+### Π (Dependent STLC with polymorphism and tycons)
 f: Πx: int. ɑ list(x) → ɑ list(x)
