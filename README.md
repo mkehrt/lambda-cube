@@ -4,7 +4,7 @@ Maximally "featureful" types for each calculus.  I've elided the foralls and add
 
 ## Non-dependent calculi
 
-### λ→ (STLC (with some primitive type))
+### λ→ (STLC)
 f: int → int
 
 ### λK (STLC with tycons)
@@ -18,7 +18,7 @@ f: ɑ list → ɑ list
 
 ## Dependent (Π) calculi
 
-### λΠ (Dependent STLC with some primitive type)
+### λΠ (Dependent STLC)
 f: Πx: int. int(x) → int(x)
 
 ### λΠK (Dependent STLC with tycons)
