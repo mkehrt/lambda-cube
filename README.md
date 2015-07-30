@@ -8,7 +8,7 @@ Maximally "featureful" types for each calculus.  I've elided the foralls and add
 f: int → int
 
 ### λK (STLC with tycons)
-f: int lsit → int list
+f: int list → int list
 
 ### λ∀ (STLC with polymorphism)
 f: ɑ → ɑ
