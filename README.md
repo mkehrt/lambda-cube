@@ -1,10 +1,10 @@
 # lambda-cube
 
-I'm too lazy to texify this right now.  Maximally "featureful" types for each calculus.  I've elide the foralls. int(x) is the singleton type for a given x; list(x) is a list of length x.  Really, lists are recursive and so require more powerful calculi, but I needed an example for a dependent tycon.
+Maximally "featureful" types for each calculus.  I've elided the foralls and added a primitive type `int` and a tycon `list`. `int(x)` is the singleton type for a given `x`; `list(x)` is a list of length `x`.  Really, lists are recursive and so require more powerful calculi, but I needed an example for a dependent tycon.
 
 ## Non-dependent calculi
 
-### λ→ (STLC with some primitive type)
+### λ→ (STLC (with some primitive type))
 f: int → int
 
 ### λK (STLC with tycons)
