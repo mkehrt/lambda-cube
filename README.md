@@ -22,7 +22,7 @@ f: ɑ list → ɑ list
 f: Πx: int. int(x) → int(x)
 
 ### λΠK (Dependent STLC with tycons)
-f: f: Πx:int. int list(x) → int list(x)
+f: Πx:int. int list(x) → int list(x)
 
 ### λΠ∀ (Dependent STLC with polymorphism)
 f: Πx: int. ɑ → int(x) // weird
